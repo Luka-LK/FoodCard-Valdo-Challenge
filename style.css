@@ -1,0 +1,29 @@
+/* global styles */
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+width: 100%;
+background-color: grey;
+  
+}
+.card{
+  width: 360px;
+  height: 528px;
+  background-color: white;
+  /* border: 1px solid red; */
+  border-radius: 16px;
+}
+
+/* container for cards */
+.container{
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.three img{
+  border-radius: 16px 16px 0px 0px;
+}
